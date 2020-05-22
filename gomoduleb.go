@@ -7,5 +7,9 @@ func init() {
 }
 
 func FctFromModuleB() {
-	fmt.Println("Calling FctFromModuleB() v2")
+	fmt.Println(modB())
+}
+
+func modB() string {
+	return "Calling modB() v3"
 }
